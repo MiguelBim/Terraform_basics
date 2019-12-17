@@ -1,0 +1,24 @@
+In order to use terraform with AWS, it is necessary to set up your amazon credentials.
+    cdm: aws configure
+    AWS Access Key ID [None]: [value of the key]
+    AWS Secret Access Key [None]: [value of the key]
+    Default region name [None]: us-east-1
+    Default output format [None]: json
+
+
+GIT commands:
+
+clone a new repo from GitHub:
+    - git clone <ssh_repo_url>
+
+create a new branch:
+    - git checkout -b <new_branch_name>
+
+List existing branches
+    - git branch -a
+
+Push to an specific branch:
+    - git push origin <branch_name>
+
+Delete a branch:
+    - git branch -d
